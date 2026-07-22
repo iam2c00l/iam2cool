@@ -154,6 +154,26 @@ Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 
 Author: CoolBooter <coolbooterios@gmail.com>
 Name: CoolBooter
 
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 1259402
+MD5sum: 6bf10790aabb8bf265fd84726c967a9b
+SHA1: d0c239d59f2a9d4aa291e9048fc4614c7db59dce
+SHA256: a1e8934fc9cb6eed5a1d39ba4c62fcf4e0125cbb1c085339fa4aa93d645e70fe
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/Icons/iCleaner.png
+Name: iCleaner Pro
+
 Package: com.hackyouriphone.localiapstore
 Version: 1.4-4
 Architecture: iphoneos-arm
@@ -171,6 +191,22 @@ Author: anondev <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=localiapstore
 Name: LocalIAPStore
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=localiapstore
+
+Package: com.idefix2020.statusbartimer
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Idefix2020 <Idefix2020dev@gmail.com>
+Installed-Size: 184
+Depends: mobilesubstrate
+Filename: ./debs/com.idefix2020.statusbartimer_1.0.2.deb
+Size: 7164
+MD5sum: 2e9ad3c80fae927957d895f3978a4be7
+SHA1: f074f816cb2ca123b0b0622bd90e1bd301a7ed14
+SHA256: 96480aa6bbec76e0fc9ee67044dde7363a75e35cc4aa4f36311e6ac7cc48592c
+Section: Tweaks
+Description: Show remaining time on timer in Status Bar
+Author: Idefix2020 <Idefix2020dev@gmail.com>
+Name: StatusBarTimer
 
 Package: com.moski.divise
 Version: 1.2.1
@@ -400,6 +436,26 @@ Dev: rpetrich
 Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
 Name: Activator
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: me.autotouch.autotouch.ios8
+Version: 8.5.5
+Architecture: iphoneos-arm
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Installed-Size: 135228
+Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), com.ex.substitute | ellekit
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/me.autotouch.autotouch.ios8_8.5.5_iphoneos-arm.deb
+Size: 21642506
+MD5sum: 3c8250a59228ee9a1ab47baf49be2365
+SHA1: 871fa6d8d5fcbe2ae26d8e7545977d7a1294d84a
+SHA256: 4c5fefc669a006bc0e0fdc98a0e631edc614ef0ecae5bd947a07e80554359e34
+Section: Utilities
+Priority: optional
+Homepage: https://autotouch.net
+Description: Record and playback touch operations, play macro scripts automatically.
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+Name: AutoTouch
 
 Package: me.lau.atria
 Version: 1.4.1
