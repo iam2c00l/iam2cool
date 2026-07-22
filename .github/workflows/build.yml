@@ -1,0 +1,54 @@
+name: Build Cydia Repository
+
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dpkg-dev
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev
+
+      - name: Generate Packages and compressed files
+        run: |
+          dpkg-scanpackages -m ./debs > Packages
+          bzip2 -c9 Packages > Packages.bz2
+          xz -c9 Packages > Packages.xz
+
+      - name: Create or update Release file if missing
+        run: |
+          if [ ! -f "Release" ]; then
+            echo "Origin: My Repo" > Release
+            echo "Label: My Repo" >> Release
+            echo "Suite: stable" >> Release
+            echo "Version: 1.0" >> Release
+            echo "Codename: ios" >> Release
+            echo "Architectures: iphoneos-arm" >> Release
+            echo "Components: main" >> Release
+            echo "Description: Custom Cydia Repository" >> Release
+          fi
+          
+          # Calculate sizes and hashes for Release file
+          # (Simple auto-update block)
+          sed -i '/^MD5Sum:/,$d' Release
+          echo "MD5Sum:" >> Release
+          for f in Packages Packages.bz2 Packages.xz; do
+            if [ -f "$f" ]; then
+              echo " $(md5sum $f | awk '{print $1}') $(wc -c < $f) $f" >> Release
+            fi
+          done
+
+      - name: Commit and push changes back to repo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add Packages Packages.bz2 Packages.xz Release
+          git commit -m "Auto-update repository index [skip ci]" || exit 0
+          git push
