@@ -7,6 +7,6 @@ Architectures: iphoneos-arm
 Components: main
 Description: Custom Cydia Repository
 MD5Sum:
- 07fc37b7c6a5e78c479f0b4cc1665e16 4585 Packages
- a42e829e5ef45f22d471e31b1ed0b5b4 2192 Packages.bz2
- 9f7fc3cab7a63024d456d4f139cd3a96 2064 Packages.xz
+ 3eb85532b9a061828be069d75d7bc860 6404 Packages
+ 2c697207bfe4b9958270d214c11b69c6 2852 Packages.bz2
+ a01fa406a59c8f376b98360232816198 2696 Packages.xz

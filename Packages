@@ -89,3 +89,53 @@ Depiction: https://chariz.com/get/divise
 Icon: https://cdn.chariz.cloud/icon/divise/icon@3x.png
 Name: Divisé
 
+Package: me.tomt000.stageduo
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: tomt000
+Installed-Size: 4900
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: ./debs/me.tomt000.stageduo_1.2_iphoneos-arm.deb
+Size: 3085818
+MD5sum: 55adbeadda4ba8eb6f2067ef3e4d7637
+SHA1: 70b6d82a0ad6c225f8e46f7359e0efa4ad7a318e
+SHA256: 9637074498a8078960f76adf1281519b88ae02339e3d76ec408793734f4aaef7
+Section: Tweaks
+Description: Stage Manager Reimagined for iPhone
+Author: tomt000
+Name: Dynamic Stage
+
+Package: weeb.lillie.youtubedislikesreturn
+Version: 1.14.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart and kirb <ytdislikesreturn@gmail.com>
+Installed-Size: 215
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/weeb.lillie.youtubedislikesreturn_1.14.2_iphoneos-arm.deb
+Size: 27120
+MD5sum: 106ef0bb9850d771226f612bef920415
+SHA1: 3c1b1f4cb7293da4e8b38ee819624c70332a696f
+SHA256: 1e752b45d71d446ea4235c9d0191e84f65fcf7653e64832314607dcda3a6917f
+Section: Tweaks
+Description: Brings Back Dislikes On iOS YouTube
+Tag: compatible_min::ios11.0
+Author: PoomSmart and kirb <ytdislikesreturn@gmail.com>
+Depiction: https://chariz.com/get/return-youtube-dislike
+Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
+Name: Return YouTube Dislike
+
+Package: xpwn
+Version: 0.5.8+git20220711.c89fba5
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 39868
+Depends: libssl3, libpng16-16
+Filename: ./debs/xpwn_0.5.8+git20220711.c89fba5_iphoneos-arm.deb
+Size: 9076186
+MD5sum: 75662634a38d21635c42271c4408b689
+SHA1: 04d2c858d84aa2f342a8dc0dd246a7acec8c4fca
+SHA256: 5032b99e724aef05ed9db1ef0ec305447c67e8ba1e2f6e6b35b8a8cedc9167e5
+Section: Development
+Priority: optional
+Description: portable, barebones PwnageTool implementation
+
