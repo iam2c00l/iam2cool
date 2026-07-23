@@ -139,6 +139,93 @@ Icon: file:///Applications/GameGemiOS.app/AppIcon60x60@3x.png
 Name: GameGem
 Sponsor: Aidoo.TK <aidoo.tk@gmail.com, http://www.aidootk.com>
 
+Package: com.ali.aim
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: alimaulana
+Installed-Size: 4968
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, ws.hbang.common (>= 2.0), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.icraze.nexus
+Filename: ./debs/com.ali.aim_1.3.1_iphoneos-arm64.deb
+Size: 2303764
+MD5sum: 3f98ad81784b594fb9adac154ca8b50c
+SHA1: 526d234f9df1ccd3730a1726e57e9e472fc5ede2
+SHA256: 52e9866775393877964fbace451d3f8dfa2908f11c1d9711f29b18cdda740d6d
+Section: Tweaks
+Description: iOS 16 Style Time & Date Lockscreen
+Author: alimaulana
+Name: AIM
+
+Package: com.ali.aim
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: alimaulana
+Installed-Size: 4968
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17.1), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.icraze.nexus
+Filename: ./debs/com.ali.aim_1.3.1_iphoneos-arm.deb
+Size: 2304360
+MD5sum: ecfe3d088ddb75e89615ff5f59a62c87
+SHA1: 60535531d13bd11e26685927c8eaa1e437064e0f
+SHA256: f152f81ce3c7ec18186d8f9067473b8a5bc57e0ba150593c172401b087c200b0
+Section: Tweaks
+Description: iOS 16 Style Time & Date Lockscreen
+Author: alimaulana
+Name: AIM
+
+Package: com.ali.waktos
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: alimaulana
+Installed-Size: 696
+Depends: mobilesubstrate, firmware (>= 13.0), com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), com.peterdev.libpddokdo
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, com.rpgfarm.groupingaxon, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.peterdev.grupi
+Filename: ./debs/com.ali.waktos_1.0.1_iphoneos-arm.deb
+Size: 168372
+MD5sum: 434b4a78da11f8f7ae61d30351ef0627
+SHA1: bef5a4de7c114aa90f6b7f3c238237a632a6e796
+SHA256: b0cd3757cd18bd8c04c74d5d63e88c3b0977348a8f87095bff4ebb8fb6317eb4
+Section: Tweaks
+Description: Android Lockscreen
+Author: alimaulana
+Name: Waktos
+
+Package: com.cokepokes.appstoreplusplus
+Version: 0.10.1-5
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.10.1-5_iphoneos-arm.deb
+Size: 4636364
+MD5sum: 1439e142bcdec4582b9ac8bccc112e4a
+SHA1: c252051616bade4de9d2ccc3a1ea7e29882488c8
+SHA256: 23bb2021da9b3fdaf5d947490f8ebff5c947d71a6966bf70e43c025c4916c8c7
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-15.whatever
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
+Name: AppStore++
+
+Package: com.coolbooter.cbuntether
+Version: 1.0-release
+Architecture: iphoneos-arm
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.coolbooter.cbuntether_1.0-release_iphoneos-arm.deb
+Size: 21320
+MD5sum: 41731a3a85e57af4e98653cce88dc419
+SHA1: 05e010563d17ab831e9047b68e2d1c1140667078
+SHA256: 2adb5e835a46bddfeccaa569906430f3fb1749cfa32f2fcb0a53b37cb418e9f9
+Section: System
+Description: "Untethers" an existing CoolBooter install
+ CoolBooter Untetherer is an extension for CoolBooter that allows the user to boot into their second OS automatically.
+ To disable the untether, hold volume down during boot.
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter Untetherer
+
 Package: com.coolbooter.coolbooter
 Version: 1.4.1-release
 Architecture: iphoneos-arm
@@ -265,6 +352,38 @@ Author: Moski <matthewpierson01@gmail.com>
 Depiction: https://chariz.com/get/divise
 Icon: https://cdn.chariz.cloud/icon/divise/icon@3x.png
 Name: Divisé
+
+Package: com.nahtedetihw.floatingdockxvi
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: Ethan Whited
+Installed-Size: 812
+Depends: preferenceloader
+Filename: ./debs/com.nahtedetihw.floatingdockxvi_2.3_iphoneos-arm.deb
+Size: 398704
+MD5sum: b839333068696a4c70f667ef43e10f33
+SHA1: fa849efb22843aa139b8df8917ef49d6175e18b0
+SHA256: 51af03d087b04d5856c4669f35ae5aa706eb54af85558fb11d0f9f17bd778004
+Section: Tweaks
+Description: Floating Dock on iOS 16
+Author: Ethan Whited
+Name: FloatingDockXVI
+
+Package: com.nahtedetihw.floatingdockxvi
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 812
+Depends: preferenceloader
+Filename: ./debs/com.nahtedetihw.floatingdockxvi_2.3_iphoneos-arm64.deb
+Size: 398774
+MD5sum: cfbf9eec21c35fd722e096cc446ad58b
+SHA1: 60fe6becaedc2da0586fb5dbd2527ec37edd456c
+SHA256: d449a8e8f2ea0fe1ddde89f07c22871115983cda520a7429c32f4459952cc43f
+Section: Tweaks
+Description: Floating Dock on iOS 16
+Author: Ethan Whited
+Name: FloatingDockXVI
 
 Package: com.nahtedetihw.gesturesxv
 Version: 1.6
