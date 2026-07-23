@@ -40,7 +40,6 @@
             gap: 10px;
         }
         .btn {
-            background-color: #007aff;
             color: white;
             padding: 12px 20px;
             border-radius: 8px;
@@ -51,23 +50,26 @@
             text-align: center;
             box-sizing: border-box;
         }
+        /* Sileo Teal */
+        .btn.sileo {
+            background-color: #3bb2c1;
+        }
+        .btn.sileo:hover {
+            background-color: #2b8b97;
+        }
+        /* Zebra Green */
         .btn.zebra {
             background-color: #34c759;
         }
         .btn.zebra:hover {
             background-color: #289e45;
         }
+        /* Cydia Brown/Orange */
         .btn.cydia {
-            background-color: #ff9500;
+            background-color: #8f6e52; 
         }
         .btn.cydia:hover {
-            background-color: #d67c00;
-        }
-        .note {
-            font-size: 0.85rem;
-            color: #ff453a;
-            margin-top: 1.5rem;
-            line-height: 1.4;
+            background-color: #70553f;
         }
     </style>
 </head>
@@ -78,15 +80,14 @@
         <p>Tap a button below to add this repository directly to your package manager.</p>
         
         <div class="button-group">
-            <!-- Native Zebra Scheme -->
+            <!-- Standard Sileo Scheme -->
+            <a href="sileo://source/https://iam2c00l.github.io/iam2cool/" class="btn sileo">Add to Sileo</a>
+            
+            <!-- Standard Zebra Scheme -->
             <a href="zbra://sources/add/https://iam2c00l.github.io/iam2cool/" class="btn zebra">Add to Zebra</a>
             
-            <!-- Standard Cydia Share Scheme (Updated arg to prevent offline error) -->
+            <!-- Standard Cydia Share Scheme -->
             <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://iam2c00l.github.io/iam2cool/" class="btn cydia">Add to Cydia</a>
-        </div>
-
-        <div class="note">
-            Sileo was too hard to implement i gave up on it
         </div>
     </div>
 
