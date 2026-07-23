@@ -332,6 +332,44 @@ Author: P2KDev <p2kdev@gmail.com>
 Icon: file:///Library/Application Support/EZSwipe/icon.png
 Name: EZSwipe
 
+Package: com.ivintagelover.locktime26
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>=4.0)
+Filename: ./debs/com.ivintagelover.locktime26.deb
+Size: 6844278
+MD5sum: 0470342bfc33c75170d4af7ad82edcbf
+SHA1: f5840be117a81d4a69b6c7f2a05f0073ceb02dd2
+SHA256: cd24704992c3c2b866f55b21a4686bf6b89864d5c9a6114d9a4ad55838cea8f0
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: iOS 26 Lock Screen clock for older iDevices. Apply using Xen HTML. Supports iPhone, iPad and iPod touch running iOS 9.0 and later.
+Depiction: https://ivintagelover.github.io/depiction/web/com.ivintagelover.locktime26.html
+Icon: https://ivintagelover.github.io/assets/com.ivintagelover.locktime26/icon.png
+Moderndepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.locktime26.json
+Name: LockTime26
+Sileodepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.locktime26.json
+Tags: compatible_min::ios4.0, compatible_max::ios15.8.7
+
+Package: com.ivintagelover.reticarl
+Version: 1.0
+Architecture: iphoneos-arm64
+Depends: firmware (>=15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: ./debs/com.ivintagelover.reticarl.deb
+Size: 8430474
+MD5sum: e85eed4e9a29ca40019c5e04fc2a32da
+SHA1: 1eb9f411d9bfdd25346bcdb3d5924d95f4409142
+SHA256: 826b1c3a8ac5b8ffd4d2d1eb02935161dced180a611e683cc78ad3334e51b5e1
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Brings the advanced iOS 27 customization to older devices.
+Depiction: https://ivintagelover.github.io/depiction/web/com.ivintagelover.reticarl.html
+Icon: https://ivintagelover.github.io/assets/com.ivintagelover.reticarl/icon.png
+Moderndepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.reticarl.json
+Name: Retica Rootless
+Sileodepiction: https://ivintagelover.github.io/depiction/native/com.ivintagelover.reticarl.json
+Tags: compatible_min::ios15.0, compatible_max::ios
+
 Package: com.moski.divise
 Version: 1.2.1
 Architecture: iphoneos-arm
@@ -351,6 +389,24 @@ Author: Moski <matthewpierson01@gmail.com>
 Depiction: https://chariz.com/get/divise
 Icon: https://cdn.chariz.cloud/icon/divise/icon@3x.png
 Name: Divisé
+
+Package: com.mtac.vitreux
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 7028
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.mtac.vitreux_1.3_iphoneos-arm64.deb
+Size: 5922092
+MD5sum: d8c3604a088edb8bd088f44a0fc08688
+SHA1: 9b950c79faff00fe120323bad10bb15af7684d6a
+SHA256: 30826472c39415105c9aba27f49a2902e84771a10be2fa92e4fb7117b556df88
+Section: Tweaks
+Description: A recreation of Liquid Glass
+Author: MTAC
+Icon: https://mtac.app/repo/assets/com.mtac.vitreux/icon-rounded.png
+Name: Vitreux
+Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.vitreux.json
 
 Package: com.nahtedetihw.closeall
 Version: 1.0
@@ -687,6 +743,50 @@ Description: Record and playback touch operations, play macro scripts automatica
 Author: Kent Krantz <kentkrantz@gmail.com>
 Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
 Name: AutoTouch
+
+Package: me.jjolano.shadow
+Version: 3.7.6
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 1428
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: ./debs/me.jjolano.shadow_3.7.6_iphoneos-arm.deb
+Size: 164872
+MD5sum: d358e346e3c7d5530ca2498fddff2e4d
+SHA1: a2aa5f5bd2d8904ab04ec230c2b4c4e2e3ce9b9e
+SHA256: 2ce5c8ac813e4b0953284662f2540546353eef36c8206fbcb1aef155f07cabea
+Section: System
+Description: A modern jailbreak detection bypass.
+Author: jjolano
+Name: Shadow
+
+Package: me.jjolano.shadow
+Version: 3.7.6
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 1076
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: ./debs/me.jjolano.shadow_3.7.6_iphoneos-arm64.deb
+Size: 100938
+MD5sum: d5d9e73e6fb80918eb95772361f123be
+SHA1: 22c6e9db9a75db1b4faff4292b7343d699e2de86
+SHA256: 52fdf82c814ab67700a51a13de0ca2138b5942b8b2e949493e04614aeef523d4
+Section: System
+Description: A modern jailbreak detection bypass.
+Author: jjolano
+Name: Shadow
 
 Package: me.lau.atria
 Version: 1.4.1
