@@ -1,11 +1,11 @@
-Origin: My Repo
-Label: My Repo
+Origin: iam2cool
+Label: iam2cool
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: Custom Cydia Repository
+Description: My Jailbreak Repo
 MD5Sum:
  3e1dd7af07f5f886e98da6359db6ad55 26856 Packages
  334b1c16dc55ead32965342f6c9cc1b8 9025 Packages.bz2
