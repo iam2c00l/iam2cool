@@ -529,23 +529,6 @@ Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
 Name: Checkmate, Store!
 
-Package: uk.invoxiplaygames.googlesigninfix
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: InvoxiPlayGames
-Installed-Size: 52
-Depends: mobilesubstrate, firmware (>= 6.0)
-Filename: ./debs/googlesigninfix-1.0.1.deb
-Size: 3432
-MD5sum: 9112f892fbaaa0b307151cfd1bad5276
-SHA1: d6e5506ea296892e80923293098dd792bc58834c
-SHA256: cb174fc33fbf70d07a99eba5338dd75114ef1118b5fb2f8c015093784bb7edfd
-Section: Tweaks
-Description: Fixes Google-owned app login on iOS 6.
-Author: InvoxiPlayGames
-Depiction: http://cydia.invoxiplaygames.uk/dp/gsigninfix.php
-Name: GSignInFix
-
 Package: uk.invoxiplaygames.imessagercepatch
 Version: 1.1
 Architecture: iphoneos-arm
